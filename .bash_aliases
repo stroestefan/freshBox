@@ -11,5 +11,6 @@ alias ....='cd ../../..'
 
 alias st='git status'
 alias gp='git pull'
+alias psh='git push'
 alias cm='git commit -m'
 alias co='git checkout'
