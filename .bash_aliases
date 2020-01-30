@@ -8,3 +8,8 @@ alias youtube-dl="python3 /usr/local/bin/youtube-dl"
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+
+alias st='git status'
+alias gp='git pull'
+alias cm='git commit -m'
+alias co='git checkout'
