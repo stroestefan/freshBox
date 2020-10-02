@@ -5,6 +5,8 @@ alias kilburn='ssh -x mbaxass2@kilburn.cs.manchester.ac.uk' # Connects to the un
 alias s="subl"
 alias youtube-dl="python3 /usr/local/bin/youtube-dl"
 
+alias sudo="sudo "
+
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
