@@ -46,9 +46,14 @@ we() # Weather report, no parameter defaults to braila
 
 compareBashFiles() # Compares the freshBox files with the local ones
 {
+    echo bashrc:
     diff ~/.bashrc ~/misc/freshBox/.bashrc;
+    echo bash_profile:
     diff ~/.bash_profile ~/misc/freshBox/.bash_profile;
+    echo bash_logout:
     diff ~/.bash_logout ~/misc/freshBox/.bash_logout;
+    echo bash_functions:
     diff ~/.bash_functions ~/misc/freshBox/.bash_functions;
+    echo bash_aliases:
     diff ~/.bash_aliases ~/misc/freshBox/.bash_aliases;
 }
