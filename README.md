@@ -21,3 +21,10 @@ intellijSettings -> contains custom Keymap
 ytToMp3.sh -> custom script to download songs from Youtube
 
 updatePackages -> deletes unused packages and upgrades existing if required
+
+## Useful tools
+[SafeEyes](https://slgobinath.github.io/SafeEyes/) - reminder to take breaks
+
+[CopyQ](https://hluk.github.io/CopyQ/) - clipboard manager
+
+[JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/) - easiest way to install & update Intellij
