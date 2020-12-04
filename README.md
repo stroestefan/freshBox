@@ -1,9 +1,15 @@
 # freshBox
-Contains sample bash scripts that help me set up a new computer.
+This repo contains bash scripts that help me set up a new computer.
 
-New aliases and functions should go in the .bash_aliases and .bash_functions respectively.
+New aliases and functions should go in the bashFiles/.bash_aliases and bashFiles/.bash_functions respectively.
+The helpaf function displays all custom aliases and a short description of each function.
 
-##
+## Usage 
+
+First run ./initialiseConfiguration to overwrite the bash files and install other necessary programs(for now just Sublime Text).
+
+## Overview of scripts
+
 configureGitSettings.sh -> sets the git username and email, enables autocorrect and sets the cache for the password
 
 initialiseConfiguration -> overwrites the existing bash files and installs sublime
