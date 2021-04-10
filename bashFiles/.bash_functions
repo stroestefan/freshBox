@@ -63,6 +63,6 @@ pomodoro() # Sets a timer and sends a notification after
     if [[ $# -eq 0 ]]; then
         echo "Usage: pomodoro [x + unit of time(s/m/h)] [message to get after the time]"
     else
-        sleep "$1" && notify-send "$2" 
+        sleep "$1" && notify-send "${*:2}"
     fi
 }
