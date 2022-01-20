@@ -66,3 +66,10 @@ pomodoro() # Sets a timer and sends a notification after
         sleep "$1" && notify-send "${*:2}"
     fi
 }
+
+name() # Changes the terminal window name
+{
+    ORIG=$PS1
+    TITLE="\e]2;$@\a"
+    PS1=${ORIG}${TITLE}
+}
